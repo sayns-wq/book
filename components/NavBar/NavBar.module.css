@@ -1,0 +1,33 @@
+
+.NavBar{
+    grid-area:NavBar;
+    
+    background-color: green;
+    display: grid;
+    grid-template-areas: 
+    "books supplies school toys sale";
+  }
+  #books{
+    color: #ffffff;
+    grid-area: books;
+
+  }
+  #supplies{
+    color: #ffffff;
+    grid-area: supplies;
+  }
+  #school{
+    color: #ffffff;
+    grid-area: school;
+  }
+  #toys{
+    color: #ffffff;
+    grid-area: toys;
+  }
+  #sale{
+    color: #ffffff;
+    grid-area: sale;
+  }
+  .move{
+      margin-left: 20%;
+  }

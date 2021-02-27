@@ -1,0 +1,27 @@
+.content_area{
+    width: 100%;
+    
+}
+.book_shower{
+    width: 100%;
+    /*height: 20vh;*/
+}
+
+.book_shower_body{
+    border: 1px solid gray;
+    width:max-content;
+    margin: 5%;
+}
+.book_shower_name{
+font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+.book_shower_body img{
+    padding: 15%;
+}
+.book_shower_author{
+    color: gray;
+}
+.book_shower_buy{
+    background-color:#00BFFF;
+    float: right;
+} 

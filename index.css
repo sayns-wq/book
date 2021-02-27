@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.Shop{
+  display: grid;
+  grid-template-areas:
+  "Header"
+  "NavBar"
+  "GeneralInformation"
+  "content_area"
+  "footer";
+  
+
+}
+
+.content_area{
+  grid-area:content_area;
+  height:100vh;
+  background-color: #ffffff;
+  
+  
+}

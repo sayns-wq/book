@@ -1,0 +1,102 @@
+
+.GeneralInformation{
+  grid-area:GeneralInformation;
+  display: grid;
+  grid-template-areas:
+  "Slider compillation";
+  grid-template-columns: 5fr 5fr;
+  background-color: rgb(127, 157, 255);
+  margin-top: 1%;
+}
+
+.compillation{
+  grid-area:compillation;
+  background-color: #ffffff;
+  display:grid;
+  grid-template-areas:
+  "best_of_the_best top_compilation"
+  "best_of_the_best middle_compilation"
+  "best_of_the_best low_compilation";
+  grid-template-columns:2fr 3fr;
+  grid-template-rows:  3fr 3fr 3fr;
+ 
+}
+.best_of_the_best{
+  grid-area:best_of_the_best;
+  background-color: #ffffff;
+}
+.big_card{
+  border: 1px solid grey ;
+
+  margin-left: 30px;
+}
+.big_card_content{
+  margin:0 auto;
+  width:50%;
+  text-align: center;
+  margin-top: 5%;
+}
+.big_card_header{
+  background: #05d34a;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 1.1em;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  color: #ffffff;
+}
+.big_card_text{
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+.big_card_description{
+  color: #05d34a;
+  font-weight: 700;
+}
+.big_card_lower_description{
+  color: gray;
+}
+.top_compilation{
+  grid-area:top_compilation;
+  background-color: #ffffff;
+}
+.compilation_card{
+  margin-left: 30px;
+  display: grid;
+  grid-template-areas: "compilation_card_picture compilation_card_information";
+  grid-template-columns: 1fr 2fr;
+  width: 70%;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+ 
+}
+.compilation_card_picture{
+  grid-area: compilation_card_picture;
+ margin: 7%;
+}
+.compilation_card_picture img{
+  margin: 0 auto;
+  background-color: rgb(243, 241, 241);
+}
+.compilation_card_information{
+  grid-area: compilation_card_information;
+  margin-left: 10%;
+}
+
+.compilation_card_title{
+
+color: rgb(127, 157, 255);
+}
+.compilation_card_description{
+color: gray;
+margin-top: 10%;
+}
+.middle_compilation{
+  grid-area:middle_compilation;
+  background-color: #ffffff;
+}
+.low_compilation{
+  grid-area:low_compilation;
+  background-color: #ffffff;
+}

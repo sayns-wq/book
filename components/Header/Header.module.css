@@ -1,0 +1,56 @@
+
+.Header{
+    grid-area:Header;
+    display: grid;
+    grid-template-areas:
+    "logo search buscket";
+    grid-template-columns: 2fr 5fr 2fr;
+  padding-bottom: 20px;
+    background-color: #00BFFF;
+  }
+  
+  .logo{
+    grid-area:logo;
+    background-color:#00BFFF;
+  }
+  .logo img{
+    margin-left:20%;
+    margin-top:12%;
+    width: 60%;
+  }
+  .search{
+    grid-area:search;
+    background-color: #00BFFF;
+  }
+  .search input{
+    margin-left:15%;
+    margin-top: 5%;
+    width: 60%;
+    padding: 0.8em;
+    border-radius:10px ;
+    outline: none;
+    font-size:larger ;
+  }
+  .buscket{
+    grid-area:buscket;
+    background-color: #00BFFF;
+    display: grid;
+    grid-template-areas:
+    "buscket_img Buscket_counter";
+    
+  
+  }
+  .buscket img{
+    margin-top: 10%;
+    margin-left: 25%;
+    width:50%;
+    grid-area:buscket_img;
+  
+  }
+  .Buscket_counter{
+    grid-area: Buscket_counter;
+    margin-left: -25px;
+    margin-top: 20%;
+    color: #ffffff;
+  }
+  

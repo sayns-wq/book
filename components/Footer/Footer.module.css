@@ -1,0 +1,73 @@
+
+.footer{
+    grid-area:footer;
+    background-color:#00BFFF;
+
+  }
+  .footer_container{
+    display: grid;
+    grid-template-areas: "footer_shops footer_i_shops footer_subscribe_and_news";
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2% 10%;
+  }
+.footer_shops{
+grid-area: footer_shops;
+background-color:#00BFFF;
+}
+.footer_i_shops{
+  grid-area: footer_i_shops;
+  background-color:#00BFFF;
+}
+.footer_subscribe_and_news{
+  grid-area: footer_subscribe_and_news;
+  background-color:#00BFFF;
+}
+
+ul li{
+    list-style-type: none;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.8em;
+    margin-top: 3%;
+}
+
+h4{
+    color: #ffffff;
+    margin-left: 10%; 
+    font-family: 'PT Sans', sans-serif;
+}
+input{
+    width: 60%;
+    border-radius: 7px;
+    outline: none;
+    height: 2.5em;
+    border: none;
+}
+button{
+    background-color: #0050b9;
+    border-radius: 7px;
+    outline: none;
+    color: #ffffff;
+    height: 2.6em;
+    border: none;
+    margin-left: 2%;
+}
+h5{
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer_zero_margine{
+    margin-left: 0;
+}
+.faIcon{
+    color: #ffffff;
+    margin-left: 5%;
+}
+.faIcon_first{
+    color: #ffffff;
+    margin-left: 0;
+}
